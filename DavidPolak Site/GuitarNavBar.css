@@ -1,0 +1,58 @@
+*
+{
+margin: 0%;
+padding: 0%;
+
+}
+
+.Gnavbar{
+    background-color: aquamarine;
+    font-family: fantasy;
+     overflow: hidden;
+}
+
+.Gnavbar a {
+display: block;
+padding: 14px 16px;
+color: white;
+float: left;
+text-decoration: none;
+text-align: center;
+}
+.Gnavbar a:hover {
+    background-color: blanchedalmond;
+    color:black;
+}
+
+.Gnavbar a:active {
+    background-color: blanchedalmond;
+    color:black;
+}
+
+
+.Song a{
+    text-decoration: none;
+    display: block;
+    padding: 4px 6px;
+    color: black;
+    font-family: fantasy;
+    border-bottom: 10px solid black;
+    
+}
+.Song p {
+    display: block;
+    padding: 5px 7px;
+    color: blue;
+    font-family: cursive;
+    border-bottom: 10px solid black;
+    
+}
+.Star {
+    float: right;
+}
+
+
+
+
+
+

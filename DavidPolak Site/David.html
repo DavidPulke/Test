@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Bottom_navbar.css" />
+  <link rel="stylesheet" href="car.css" />
+  <link rel="stylesheet" href="SignIn.JS" />
+  <link rel="Icon"
+    href="https://yt3.ggpht.com/yti/ADpuP3NDKsCAcLLQ_SmgzB5AkhlKYPGdcDr4bB8meeZKfw=s88-c-k-c0x00ffffff-no-rj" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>DavidPolak Site</title>
+  <script src="https://kit.fontawesome.com/ce73121399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: rgb(0, 0, 0);
+      margin: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: aquamarine;
+      font-family: fantasy;
+    }
+
+    .topnav a {
+      float: left;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 6px 8px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a.active {
+      background-color: black;
+      color: aqua;
+      height: 29px;
+    }
+
+    .topnav a:hover {
+      background-color: black;
+      color: aquamarine;
+      height: 29px;
+    }
+
+    .topnav input {
+      float: right;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .topnav .search-container {
+      float: right;
+    }
+
+    .topnav input[type="text"] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+    }
+
+    .topnav .search-container button {
+      float: right;
+      padding: 5px 9px;
+      margin-top: 8px;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .topnav .search-container button:hover {
+      background: #ccc;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
+      }
+
+      .topnav a,
+      .topnav input[type="text"],
+      .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+
+      .topnav input[type="text"] {
+        border: 1px solid #ccc;
+      }
+    }
+  </style>
+
+  <script>
+    /*  function signIn() {
+      var userName = document.forms["myForm"]["userName"].value;
+      var Password = document.forms["myForm"]["Password"].value;
+      userName = Text(userName);
+      Password = Number(Password);
+      if ("userName" == "DavidPulke" && "Password" == "dd7pp7") {
+        alert("Hello");
+        return true;
+        console.log("True");
+      } else if ("userName" == "" && "Password" == "") {
+        alert("Wrong");
+        return false;
+        console.log("Wrong");
+      }
+    }*/
+  </script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="https://www.youtube.com/channel/UC7BUVVdyA4Rfko6Vu3uUNEA">
+      <img
+        src="https://yt3.googleusercontent.com/ytc/APkrFKbG6dASLrlGJflFEg6s6WySCOSaRudbtZhpBWVvCw=s176-c-k-c0x00ffffff-no-rj"
+        alt="Icon" width="25px" height="25px" style="border-radius: 20px" />
+    </a>
+    <a class="active" href="David.html">
+      Home<i class="fa-solid fa-house fa-bounce" style="color: aqua"></i></a>
+    <a href="Guitar.html">Guitar
+      <i class="fa-solid fa-guitar fa-beat-fade" style="color: #000000"></i></a>
+    <a href="Work.html">Work
+      <i class="fa-sharp fa-solid fa-toolbox fa-beat-fade" style="color: #000000"></i></a>
+    <a href="#about">About</a>
+    <div class="search-container">
+      <form action="http://127.0.0.1:5500/David.html#Home">
+        <input type="search" placeholder="Search..." />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <br />
+  <h1 style="text-align: center; font-family: cursive; color: white">
+    Sign Up
+    <i class="fa-solid fa-user fa-beat-fade" style="color: #ffffff"></i>
+  </h1>
+  <div style="text-align: center">
+    <label for="signUp">
+      <p style="color: white">Please Enter You'r Information To Sign Up</p>
+      <input type="text" placeholder="First Name" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="tel" placeholder="PhoneNumber" /><br />
+      <input type="email" placeholder="Gmail" /><br />
+      <input type="submit" placeholder="submit" />
+    </label>
+  </div>
+  <br />
+  <br />
+  <br />
+
+  <hr />
+
+  <div class="hero">
+    <div class="highway"></div>
+    <div class="city"></div>
+    <div class="car">
+      <img src="car.png" />
+    </div>
+    <div class="wheel">
+      <img src="wheel.png" class="front-wheel" />
+      <img src="wheel.png" class="back-wheel" />
+    </div>
+  </div>
+
+  <hr />
+  <br />
+  <br />
+  <br />
+  <div style="color: white; font-family: cursive; text-align: center">
+    <h1>Sign In <i class="fa-solid fa-user fa-beat-fade"></i></h1>
+  </div>
+  <p style="text-align: center; color: white">
+    Already Have An Account Sign In
+  </p>
+  <div style="text-align: center">
+    <form name="myForm" onsubmit="return signIn() ">
+      <label for="userName"></label>
+      <input name="userName" type="text" id="userName" placeholder="UserName"
+        style="border-radius: 10px; text-align: center" />
+      <br />
+      <label for="Password"></label>
+      <input name="Password" type="password" id="Password" placeholder="Password"
+        style="border-radius: 10px; text-align: center" /><br />
+      <input type="submit" value="Submit" style="border-radius: 5px; text-align: center" />
+    </form>
+  </div>
+  <div class="botNavbar">
+    <a href="#Instagram" class="active"><img src="https://cdn.filestackcontent.com/0lPvdSHQR2b4vD5UMcJw" alt="Instagram"
+        style="width: 120px; height: 50px" /></a>
+    <a href="#Youtube"><img src="https://ps.w.org/youtube-embed/assets/icon-256x256.png?rev=2955063" alt="YouTube"
+        style="width: 80px; height: 50px" /></a>
+    <div class="input">
+      <input type="file" />
+    </div>
+  </div>
+</body>
+
+</html>
